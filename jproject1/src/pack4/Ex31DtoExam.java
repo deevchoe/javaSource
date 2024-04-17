@@ -8,7 +8,7 @@ public class Ex31DtoExam {
 //	private String name;
 //	private int kor, eng;
 	
-	public void insertList() {
+	public void insertList() { 
 		while(true) {
 			try {
 				Scanner scanner = new Scanner(System.in);

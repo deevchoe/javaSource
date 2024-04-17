@@ -6,7 +6,7 @@ import java.util.Iterator;
 // Collection : 다수의 객체를 담을 수 있는 집합형 자료구조
 public class Ex27SetTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// Set 류의 HashSet으로 연습 : 중복 불가, 순서 없음
 		
 		//Ex27SetTest test = new Ex27SetTest();

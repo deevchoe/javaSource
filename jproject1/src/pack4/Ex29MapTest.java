@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class Ex29MapTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// Map류의 HashMap으로 연습 : 자료를 키와 값으로 저장. 검색이 편리
 		HashMap<String, String> list = new HashMap<String, String>(); // 키는 중복되면 안됨 밸류는 중복될 수 있어
 		list.put("1", "lee");

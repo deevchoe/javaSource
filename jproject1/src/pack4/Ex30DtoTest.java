@@ -2,7 +2,7 @@ package pack4;
 
 import java.util.ArrayList;
 
-public class Ex30DtoTest {
+public class Ex30DtoTest { 
 	// DTO(DataTransferObject) : ...... 레코드 단위의 기억장소 
 	ArrayList<Ex30StudentDto> list = new ArrayList<Ex30StudentDto>();	// 다른 타입은 넣을 수 없다. Ex30StudentDto 타입만 사용 가능
 	Ex30StudentDto dto;		// DTO

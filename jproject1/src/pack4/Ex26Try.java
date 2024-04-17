@@ -7,7 +7,7 @@ import java.io.FileReader;
 // 예상치 못한 에러가 발생할 수 있는데 이와 같은 경우에 주로 사용한다.
 // try ~ catch 구문을 사용
 
-public class Ex26Try {
+public class Ex26Try { 
 
 	public void testMethod() {
 		System.out.println("testMethod");

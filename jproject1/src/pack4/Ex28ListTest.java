@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class Ex28ListTest {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// List 류의 ArrayList로 연습 : 중복 가능, 순서 있음
 		ArrayList<String> list = new ArrayList<String>();
 		list.add("lee");

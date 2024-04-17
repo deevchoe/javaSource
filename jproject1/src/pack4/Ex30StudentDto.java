@@ -4,7 +4,7 @@ public class Ex30StudentDto {
 	// 레코드 단위 기억장소
 	// type이 다른 여러 개의 기억장소를 하나의 묶음으로 만들어 자료 전송을 하는 것이 목적
 	private String hakbun, irum;
-	private int jumsu;
+	private int jumsu; 
 	
 	public Ex30StudentDto() {	// 생성자를 쓰고 싶으면 내용이 없는 생성자도 만들어줘야해~
 		
