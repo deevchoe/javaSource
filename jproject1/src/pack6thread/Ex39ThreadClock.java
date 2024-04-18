@@ -26,7 +26,7 @@ public class Ex39ThreadClock extends Frame implements ActionListener, Runnable{
 		
 		setTitle("스레드 시계");
 		setBounds(200, 200, 300, 300);
-		setVisible(true);
+		setVisible(true); 
 
 		super.addWindowListener(new WindowAdapter() {
 			@Override
