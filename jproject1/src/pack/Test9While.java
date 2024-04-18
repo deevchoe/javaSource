@@ -66,7 +66,7 @@ public class Test9While {
 			System.out.println();
 		}
 		System.out.println();
-		/*
+		
 		// 키보드로 입력받은 숫자에 대해 1부터 시작해 그 숫자까지 모든 수에
 		// 나누기를 시도하고 나누어 떨어지는 경우(약수)
 		// 0이나 음수를 입력하면 프로그램 종료.
@@ -77,6 +77,7 @@ public class Test9While {
 			if(num <= 0) {
 				System.out.println("프로그램 종료");
 				break;
+				// 이 break는 if문을 빠져나가는 것이 아니라 while문을 빠져나가는 것이다.
 			}
 			System.out.println(num + "의 약수는");
 			int divisor = 1;	// 약수를 찾기 위해 1부터 시작
@@ -87,7 +88,7 @@ public class Test9While {
 				divisor++;	// 다음 수로 이동
 			}
 		}
-		*/
+		
 		System.out.println();
 		// do{반복 수행문...}while(조건);
 		int k = 1;
