@@ -31,7 +31,7 @@ public class Ex39ThreadClock extends Frame implements ActionListener, Runnable{
 		super.addWindowListener(new WindowAdapter() {
 			@Override
 			public void windowClosing(WindowEvent e) {
-				bExit = true;
+				bExit = true;	// run()의 무한 루핑을 탈출하기 위해
 				System.exit(0);
 			};
 		});
