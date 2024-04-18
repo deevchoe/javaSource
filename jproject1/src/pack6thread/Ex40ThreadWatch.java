@@ -77,7 +77,7 @@ public class Ex40ThreadWatch extends Frame implements Runnable {
 
 	}
 
-	public void LineDraw(Graphics g) {
+	public void LineDraw(Graphics g) { 
 
 		double dAngle = -90.0;
 
