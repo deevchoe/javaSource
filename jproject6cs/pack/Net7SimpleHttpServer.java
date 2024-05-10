@@ -57,7 +57,7 @@ public class Net7SimpleHttpServer {
 				
 				// HTTP 요청에 대한 응답 전송
 				out.println("HTTP/1.1 200 OK");		// 서버가 클라이언트 브라우저에게 알려줌
-				out.println("Content-Type : test/html;charset=UTF-8");	// 대소문자 구분함.
+				out.println("Content-Type : text/html;charset=UTF-8");	// 대소문자 구분함.
 				out.println("");
 				out.println("<html><head><title>연습</title></head>");
 				out.println("<body>");
